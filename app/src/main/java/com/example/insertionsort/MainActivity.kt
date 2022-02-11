@@ -9,8 +9,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        var x = InsertionSort(arrayListOf(22,27,10,5,3,9,1,18))
-        println(arrayListOf(22,27,10,5,3,9,1,18))
+        var x = InsertionSort(arrayListOf(7,3,5,8,2,9,4,15,6))
+        println(arrayListOf(7,3,5,8,2,9,4,15,6))
         println(x.Sort())
     }
 }
